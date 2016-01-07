@@ -1,0 +1,15 @@
+body {
+	margin: 0;
+	background-color: #aaaaaa;
+}
+
+#backgroundDiv {
+	/**background-image: url('../images/DrewRoberts.jpg');*/
+	/**background-image: url('../images/niche3.png');*/
+	background-image: url('../images/niche3.png');
+	/**background-image: url('../images/TheNiche.png');*/
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+} 
