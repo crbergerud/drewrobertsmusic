@@ -13,3 +13,18 @@ body {
 	width: 100%;
 	height: 600px;
 } 
+
+.container {
+    padding: 80px 120px;
+} 
+
+.carousel-inner > .item {
+    margin: 0 auto;
+    background-color: black;
+}
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+    padding-top: 50px;
+}
