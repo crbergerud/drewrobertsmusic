@@ -1,6 +1,9 @@
 body {
 	margin: 0;
-	background-color: #aaaaaa;
+	background-color: white;
+	font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+
 }
 
 #backgroundDiv {
@@ -23,8 +26,64 @@ body {
     background-color: black;
 }
 
-.carousel-caption {
+.carousel-caption1 {
     top: 0;
     bottom: auto;
     padding-top: 50px;
+}
+
+.caption-background {
+  background:#000000;
+  background:rgba(0,0,0,0.5); 
+  margin-right: 200px;
+  margin-left: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    /* background-color: #2d2d30; */
+    background-color: #000000;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity:0.7;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+    background-color: red !important;
 }
