@@ -25,13 +25,15 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#home" data-toggle="collapse" data-target="#myNavbar">HOME</a></li>
-        <li><a href="#video" data-toggle="collapse" data-target="#myNavbar">VIDEO</a></li>
         <li><a href="#calendar" data-toggle="collapse" data-target="#myNavbar">CALENDAR</a></li>
+        <li><a href="#video" data-toggle="collapse" data-target="#myNavbar">VIDEO</a></li>
         <li><a href="#contact" data-toggle="collapse" data-target="#myNavbar">CONTACT</a></li>
       </ul>
     </div>
   </div>
 </nav>
+<!-- a filler div so that the menu does not clobber the carousel images -->
+<div id="home" style="background-color: #000;">&nbsp;<br />&nbsp;</div> 
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -43,12 +45,11 @@
   </ol>
 
   <!-- Wrapper for slides -->
-  <div id="home"></div>
   <div class="carousel-inner" role="listbox">
     <div class="item active">
       <img class="img-responsive center-block" src="images/FullSizeRender970x600.jpg" alt="The Niche">
       <div class="carousel-caption">
-        <h2>The Niche</h2>
+        <h3>The Niche</h3>
         <!--<p>The atmosphere in New York is lorem ipsum.</p>-->
       </div> 
     </div>
@@ -56,7 +57,7 @@
     <div class="item">
       <img class="img-responsive center-block" src="images/Duo970x600.jpg" alt="The Niche">
       <div class="carousel-caption">
-        <h2>The Niche Duo</h2>
+        <h3 class="caption-background">The Niche Duo</h3>
         <!--<p>Thank you, Chicago - A night we won't forget.</p>-->
       </div> 
     </div>
@@ -64,14 +65,14 @@
     <div class="item">
       <img class="img-responsive center-block" src="images/DrewRoberts970x600.jpg" alt="Drew Roberts Solo">
       <div class="carousel-caption">
-        <h2>Drew Roberts Solo</h2>
+        <h3>Drew Roberts Solo</h3>
         <!--<p>Even though the traffic was a mess, we had the best time.</p>-->
       </div> 
     </div>
     <div class="item">
       <img class="img-responsive center-block" src="images/TheNiche970x600.jpg" alt="Drew Roberts Solo">
       <div class="carousel-caption">
-        <h2>The Niche</h2>
+        <h3>The Niche</h3>
         <!--<p>Even though the traffic was a mess, we had the best time.</p>-->
       </div> 
     </div>
@@ -131,6 +132,11 @@
     <div>Website Design: Christine R. Bergerud Consulting</div>
   </div>
 </div>  
-
+<!-- have to add space to the bottom so that page can scroll to the bottom for correct contact display -->
+<br />
+<br />
+<br />
+<br />
+<br />
 </body>
 </html>
