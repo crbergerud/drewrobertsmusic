@@ -18,7 +18,8 @@ body {
 } 
 
 .container {
-    padding: 80px 120px;
+    /* padding: 80px 120px; */
+    padding: 50px 30px;
 } 
 
 .carousel-inner > .item {
