@@ -100,3 +100,19 @@ body {
 }
 .bg-1 h3 {color: #fff;}
 /* .bg-1 p {font-style: italic;} */
+
+/* for the video links */
+.pointer-cursor {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.pointer-cursor:hover {
+  background-color: #aaaaaa;
+}
+
+.video-section {
+  background-color: #555555;
+  color: #ffffff;
+  padding: 10px;
+}
