@@ -30,8 +30,16 @@
         <li><a href="#home" data-toggle="collapse" data-target="#myNavbar">HOME</a></li>
         <li><a href="#calendar" data-toggle="collapse" data-target="#myNavbar">CALENDAR</a></li>
         <li><a href="#video" data-toggle="collapse" data-target="#myNavbar">VIDEOS</a></li>
-        <li><a href="#cd" data-toggle="collapse" data-target="#myNavbar">CD</a></li>
-        <li><a href="#contact" data-toggle="collapse" data-target="#myNavbar">CONTACT</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#cd" data-toggle="collapse" data-target="#myNavbar">CD</a></li>
+            <li><a href="#promo" data-toggle="collapse" data-target="#myNavbar">PROMO MATERIAL</a></li>
+            <li><a href="#contact" data-toggle="collapse" data-target="#myNavbar">CONTACT</a></li>
+          </ul>
+        </li>
       </ul>
     </div>
   </div>
@@ -131,7 +139,21 @@
   </div>
 </div>
 
-<div class="bg-12" id="contact">
+<div class="bg-12" id="promo">
+  <div class="container text-center">
+    <h3 class="text-center">PROMOTIONAL MATERIALS</h3>
+    <p>Downloadable flyers below, just enter the date and time, then print</p>
+    <p>These are docx files. If you don't have MS Word you can use Google Docs for free</p>
+    <p>
+      <a href="docs/Drew_Solo_flyer.docx">Drew Roberts (Solo)</a><br>
+      <a href="docs/The_Niche_Duo_flyer.docx">The Niche Duo (with Kent on drums)</a><br>
+      <a href="docs/The_Niche_Duo_Joe_flyer.docx">The Niche Duo (with Joe on guitar/bass)</a><br>
+      <a href="docs/The_niche_flyer.docx">The Niche (trio)</a><br>
+      <a href="docs/The_niche4_flyer.docx">The Niche (4 piece)</a><br>
+    </p>
+  </div>
+</div>
+<div class="bg-1" id="contact">
   <div class="container text-center">
     <h3 class="text-center">CONTACT</h3>
     <img class="text-center" src="images/drew.JPG" />
@@ -143,7 +165,7 @@
   </div>
 </div>
 
-<div class="bg-1" id="contact">
+<div class="bg-12" id="contact">
   <div class="container text-center">
     <br />
     <br />

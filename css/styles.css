@@ -86,7 +86,8 @@ body {
 
 /* Dropdown links */
 .dropdown-menu li a {
-    color: #000 !important;
+    /* color: #000 !important; */
+    color: #888 !important;
 }
 
 /* On hover, the dropdown links will turn red */
