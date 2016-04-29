@@ -102,6 +102,8 @@ body {
 .bg-1 h3 {color: #fff;}
 /* .bg-1 p {font-style: italic;} */
 
+.bg-12 h3 {color: #000;}
+
 /* for the video links */
 .pointer-cursor {
   cursor: pointer;
